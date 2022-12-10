@@ -1,0 +1,82 @@
+.nav-section{
+    height: 3em;
+    padding-left: 3em;
+}
+.icon{
+    width: 27px;
+    height: 9px;
+    background: linear-gradient(96.34deg, #e537b9 0%, #c040df 100%);
+    border-radius: 4.5px;
+      
+}
+.navbar{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.navbar > .container-fluid{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+}
+.main-section{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.section-1{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.section-1 .section-1-heading{
+    font-size: 1.2em;
+    color: #262c44;
+}
+.section-1 .section-1-content{
+    color: #a0a0a0;
+}
+.accordion-item {
+    background-color: transparent;
+    border: unset;
+}
+.accordion-button{
+    padding: 1em 0em;
+}
+.accordion-button:focus {
+    border:0;
+    box-shadow: unset;
+}
+.accordion-button:not(.collapsed){
+    color: inherit;
+    background-color: transparent;
+    box-shadow: unset;
+}
+.accordion-button::after{
+    order: -1;
+    margin-right: 1em;
+    margin-left: 0;
+}
+.accordion-header-span{
+    color: #737272;
+    font-weight: 700;
+}
+.accordion-body {
+    padding: 1em 0em;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 10%;
+}
+.carousel-item > a{
+    text-decoration: none;
+    color: inherit;
+}
+.cc-container{
+    color: #586168;
+    font-weight: 600;
+}
+.card-img-top{
+    height:15rem;
+    object-fit: cover;
+}
+.card-body{
+    padding: 1rem 2rem;
+}
